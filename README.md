@@ -41,11 +41,12 @@ Or for any other use you can think of.
   },
   "Prod": {
     "authLevel": 1,
+    "Command": "prod",
     "Passive Mode": false,
     "Print to player console instead of chat? ": true
   }
 }
 ```
-## Planned:
+## Planned
 * Continue adding support for more and more building blocks
 * Recode the plugin to match 2021 Development standards
