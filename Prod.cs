@@ -9,7 +9,7 @@ using System.Text;
 
 namespace Oxide.Plugins
 {
-    [Info("Prod", "Quapi", "2.5.3")]
+    [Info("Prod", "Quapi", "2.5.4")]
     class Prod : RustPlugin
     {
         private DynamicConfigFile BuildingData;
