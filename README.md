@@ -49,4 +49,4 @@ Or for any other use you can think of.
 ```
 ## Planned
 * Continue adding support for more and more building blocks
-* Recode the plugin to match 2021 Development standards
+* Recode the plugin to match 2022 Development standards (Work in progress, delayed as I'm a student and free time is nothing I know nowadays.)
