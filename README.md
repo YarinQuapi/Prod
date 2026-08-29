@@ -1,9 +1,6 @@
 # Prod 3.0 — Admin Entity Inspector
 
 Look at any entity or deployable and get ownership, authorization, lock, and status details for admins.
-
-**Plugin page:** [umod.org/plugins/prod](https://umod.org/plugins/prod)
-
 ---
 
 ## Features
@@ -11,7 +8,7 @@ Look at any entity or deployable and get ownership, authorization, lock, and sta
 ### Ownership & identity
 
 - Player **Steam IDs and names** (online, sleeping, offline where cached)
-- **Building block** owner (entity owner + tracked placer from plugin data)
+- **Building block** owner (entity owner   tracked placer from plugin data)
 - **Deployable owner** on containers, traps, vehicles, electrical, and more
 
 ### Building & base
@@ -79,7 +76,7 @@ Look at any entity or deployable and get ownership, authorization, lock, and sta
 | ------------ | ------------------------------------------------ |
 | `prod.admin` | Alternative to auth level — grants full `/prod` access |
 
-Default access: **auth level 1+** (moderator) **or** `prod.admin`.
+Default access: **auth level 1 ** (moderator) **or** `prod.admin`.
 
 > **Note:** Passive mode (`prod.passive.use`) from older versions is **not implemented in 3.0A**. Full inspector access applies to all authorized users. Passive/redacted mode may return in a future update.
 
@@ -212,8 +209,8 @@ Stability: 85%
 - Full rewrite with unified color-coded messaging
 - Building block **stability** display
 - **Key lock** support — placer, key code, access list
-- **20+ new deployable types** with dedicated admin info
+- **20  new deployable types** with dedicated admin info
 - Fixed entity dispatch order (specific types before generic handlers)
-- Doors show full info + locks (not codelock-only)
+- Doors show full info   locks (not codelock-only)
 - Updated config structure (`Settings`, `Messages`, `Titles`)
 - Building block placer tracking persisted to data file
